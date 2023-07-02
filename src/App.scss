@@ -1,0 +1,19 @@
+.App {
+    overflow-x: clip;
+    position: relative;
+}
+
+.App-wrapper {
+    background: var(--black);
+    position: relative;
+}
+
+.white-gradient {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.522);
+    z-index: 1;
+    filter: blur(100px);
+    border-radius: 50%;
+}
