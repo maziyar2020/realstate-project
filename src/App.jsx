@@ -2,6 +2,7 @@
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Companies from "./components/companies/Companies";
+import Residencies from "./components/residencies/Residencies";
 // styles
 import './App.scss'
 
@@ -12,8 +13,9 @@ function App() {
         <div className="white-gradient"></div>
         <Header />
         <Hero />
-        <Companies />
       </div>
+        <Companies />
+        <Residencies />
     </div>
   );
 }
