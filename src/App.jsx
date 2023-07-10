@@ -4,6 +4,9 @@ import Hero from "./components/hero/Hero";
 import Companies from "./components/companies/Companies";
 import Residencies from "./components/residencies/Residencies";
 import Value from "./components/value/Value";
+import Contact from "./components/contact/Contact";
+import GetStart from "./components/getstart/GetStart";
+import Footer from './components/footer/Footer'
 
 // styles
 import './App.scss'
@@ -19,6 +22,9 @@ function App() {
         <Companies />
         <Residencies />
         <Value />
+        <Contact />
+        <GetStart/>
+        <Footer />
     </div>
   );
 }
