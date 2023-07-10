@@ -1,4 +1,8 @@
 export const swiperSetting = {
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     slidesPerView: 1,
     spaceBetween: 50,
     breakpoints: {
@@ -14,5 +18,5 @@ export const swiperSetting = {
         1100: {
             slidesPerView: 4
         }
-    }
+    },
 }
